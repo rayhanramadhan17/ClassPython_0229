@@ -14,3 +14,5 @@ class Rectangle:
         def area(self):
                 return self.length * self.width
         
+        def __str__(self):
+           return "Rectangle(length={}, width={})".format(self.length, self.width)
